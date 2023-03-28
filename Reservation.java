@@ -109,15 +109,6 @@ public class Reservation {
         return totalDay = reservationEnd - reservationStart;
     }
 
-    /*public int calculateTotalPrice() {
-        if(reservationMonth.equals(s1) || reservationMonth.equals(s2) || reservationMonth.equals(s3)) {
-            return totalDay() * (room.getDailyCost() * multiplier);
-        }
-        else {
-            return totalDay() * room.getDailyCost();
-        }
-    }*/
-
     public String displayInfo() {
         return "Reservation for " + hotelName + " starts on "
                 + reservationMonth + " " + reservationStart +
